@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #register{
+      background-color:rgb(230,50,87); 
+      width: 75%;
+      border-radius: 30px;
+      border: 2px solid rgb(230,50,87) ;
+    }
+    #text{
+      color:rgb(230,50,87);
+    } 
+    .custom-file{
+      color:rgb(230,50,87);
+    }
+  </style>
+  <title>Register</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/SocialNetwork/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Navigation bar -->
+<nav class="navbar navbar-inverse navbar-expand-lg navbar-light navbar-fixed-top" id="mainNav">
+  <div class="container">
+    <a href="/SocialNetwork/index.php" class="navbar-left"><img src="../websiteImage/navbar_logo.png"></a>
+      <a class="navbar-brand" href="/SocialNetwork/index.php"><strong>Unicorn Social network</strong></a>
+  </div>
+</nav>
+<!------------------------>
+<div class='col-sm-12'>
+  <br>
+    <center><img src='../websiteImage/unicorn.png'4
+    class='img-rounded'></center>
+</div>
+<div class='col-sm-6' style='left: 30%;'>
+  <form action="/SocialNetwork/index.php" method="POST" enctype="multipart/form-data">
+    <div id="text"><h2>Create your account</h2></div>
+    <div class="form-group" style="width: 75%;">
+      <input type="text" class="form-control" name="student_no" placeholder="Student number*" required>
+      <br>
+      <input type="text" class="form-control" name="firstname" placeholder="Firstname*" required>
+      <br>
+      <input type="text" class="form-control" name="lastname" placeholder="Lastname*" required>
+      <br>
+      <label class="radio-inline"><input type="radio" name="gender" value="M" required checked>M</label>
+      <label class="radio-inline"><input type="radio" name="gender" value="F" required>F</label><br><br>
+      <input type="text" class="form-control" name="password1" placeholder="Password*" required><br>
+      <input type="text" class="form-control" name="password2" placeholder="Confirm password*" required><br>
+      <!-- <div class="custom-file"> -->
+      <input type="file" name="user_pic"/>
+      
+    </div>
+    <button id="register"
+      class="btn btn-primary" type="submit" name="submit" value="Register">Register</button><br><br>
+  </form>
+</div>
+ </body>
+</html>

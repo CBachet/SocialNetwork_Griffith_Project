@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  #register{
+    background-color:rgb(230,50,87); 
+    width: 75%;
+    border-radius: 30px;
+    border: 2px solid rgb(230,50,87) ;
+  }
+  #login{
+    background-color: white; 
+    color:rgb(230,50,87) ;
+    width: 75%;
+    border-radius: 30px;
+    border: 2px solid rgb(230,50,87) ;
+  }
+  #login:hover{
+    color: white;
+    background-color:rgb(230,50,87);
+  }
+</style>
+  <title>Login or Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Navigation bar -->
+<nav class="navbar navbar-inverse navbar-expand-lg navbar-light navbar-fixed-top" id="mainNav">
+  <div class="container">
+    <a href="/SocialNetwork/index.php" class="navbar-left"><img src="websiteImage/navbar_logo.png"></a>
+      <a class="navbar-brand" href="/SocialNetwork/index.php"><strong>Unicorn Social network</strong></a>
+  </div>
+</nav>
+<!------------------------>
+<div class='col-sm-12'>
+  <br>
+    <center><img src='websiteImage/unicorn.png'4
+    class='img-rounded'></center>
+</div>
+<div class='col-sm-6' style='left: 30%;'>
+  <form action="html/add_user.html" method="POST">
+    <div id="text"><h2>Login or Register</h2></div><br>
+    <button id="register"
+      class="btn btn-primary" type="submit" name="submit" value="Register">Register</button>
+  </form><br>
+  <a href="html/login.html">
+    <button id="login"
+      class="btn btn-primary" type="submit" name="submit" value="Login"> Login</button>
+  </a>
+</div>
+</body>
+</html>
