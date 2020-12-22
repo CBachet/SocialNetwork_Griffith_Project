@@ -7,6 +7,8 @@ Then you can start it with the index.php file
 
 All files are sorted in different folders depending on whether they are functions, html code, images, etc.
 
+To make things easier, all the images uploaded to the site are saved in the Image folder of the directory
+
 ----------
 
 Un projet pour valider le module Server Side au Griffith College lors de notre semestre à l'étranger.
@@ -16,3 +18,5 @@ Avant d'exécuter le projet, vous devez exécuter le fichier sql_utility.php pou
 Ensuite, vous pouvez le démarrer avec le fichier index.php
 
 Tous les fichiers sont triés dans différents dossiers selon qu'il s'agit de fonctions, de code html, d'images, etc.
+
+Pour faciliter les choses, toutes les images "uploadées" sur le site sont enregistrées dans le dossier Image du répertoire
