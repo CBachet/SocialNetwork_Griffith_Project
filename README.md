@@ -1,5 +1,5 @@
 # SocialNetwork_Griffith_Project
-A project to validate the Server Side module at Griffith College (Dublin, Ireland) during our semester abroad. 
+A project to validate the Server Side module at Griffith College (2019, Dublin, Ireland) during our semester abroad. 
 The aim was to create a Facebook-like web-site in PHP.
 
 Before running the project, you must execute the sql_utility.php file to create the database necessary for the management of the site. 
